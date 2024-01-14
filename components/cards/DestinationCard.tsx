@@ -20,8 +20,8 @@ function DestinationCard({
         <div className="flex relative flex-col justify-between  pb-[2.63rem] group">
             <div className="  object-fill ">
                 <Image
-                    width={47}
-                    height={48}
+                    width={314}
+                    height={327}
                     src={imageUrl}
                     alt="destination image"
                     className="w-[314px] h-[20.43rem]  object-cover rounded-t-[1.5rem]"
@@ -34,7 +34,12 @@ function DestinationCard({
                 </div>
                 <div className="flex gap-4 items-center">
                     <div>
-                        <Image src="/images/send-icon.png" alt="send icon" />
+                        <Image
+                            width={20}
+                            height={20}
+                            src="/images/send-icon.png"
+                            alt="send icon"
+                        />
                     </div>
                     <p className="text-lightGray font-bold">{duration}</p>
                 </div>
