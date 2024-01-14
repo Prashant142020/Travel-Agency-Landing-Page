@@ -82,8 +82,8 @@ function NavBar() {
                 <div className="flex justify-between mx-[10px]">
                     <div className="flex gap-[50px] text-[16px] items-center select-none">
                         <Image
-                             width={114.91}
-                             height={33.99}
+                            width={114.91}
+                            height={33.99}
                             src="/images/logo.png"
                             alt="logo"
                             className="w-[7rem]"

@@ -24,7 +24,6 @@ function NewsLetterSection() {
                             <Image
                                 width={21}
                                 height={18}
-
                                 src="/images/envelop.png"
                                 alt="envelope icon"
                             />
@@ -49,10 +48,12 @@ function NewsLetterSection() {
             </div>
 
             <div className="absolute -top-4 -right-4">
-                <Image 
-                width={70}
-                height={70}
-                src="/images/send-shape.png" alt="send icon" />
+                <Image
+                    width={70}
+                    height={70}
+                    src="/images/send-shape.png"
+                    alt="send icon"
+                />
             </div>
 
             <div className="absolute top-0 right-0 opacity-25">
